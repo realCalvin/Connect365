@@ -22,7 +22,7 @@ idna==2.7
 imagesize==1.1.0
 importlib-metadata==0.23
 infinity==1.4
-intervals==0.8.1
+intervals==0.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 kiwisolver==1.1.0
