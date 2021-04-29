@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: decorator
+    versions:
+    - 4.4.2
+    - 5.0.1
+    - 5.0.5
+    - 5.0.6
+  - dependency-name: pyqt5
+    versions:
+    - 5.15.2
+    - 5.15.3
+  - dependency-name: pytest
+    versions:
+    - 6.2.2
+  - dependency-name: zipp
+    versions:
+    - 3.4.0
